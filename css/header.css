@@ -1,0 +1,137 @@
+.anh-header{
+    position: relative;
+}
+
+.header-banner{
+    position: absolute;
+    display: flex;
+    top: 35px;
+    margin-left: 283px;
+    
+}
+
+.menu{
+    display: flex;
+   
+    
+}
+
+.menu-banner-letf ul{
+    display: flex;
+}
+
+.menu-banner-letf ul li{
+   margin-right: 45px;
+}
+
+.menu-banner-right ul li{
+   margin-left: 45px;
+}
+.menu-banner-right ul {
+    display: flex;
+}
+
+.menu-banner-letf ul li a{
+  
+  font-size: 15px;
+ 
+}
+
+.menu-banner-right ul li a{
+   
+   font-size: 15px;
+}
+
+.icon-letf{
+    margin-right: 320px;
+}
+
+
+
+.icon-right{
+    margin-left: 325px;
+    display: inline-flex;
+    position: relative;
+}
+
+.cart_qty {
+  position: absolute;
+  top: -5px;
+  right: -24px;
+  background-color: #ffffff;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+}
+
+/* gạch chân */
+.underline-hover {
+  position: relative;
+  text-decoration: none;
+ 
+}
+
+.underline-hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -9px; /* cách chữ 9px */
+  width: 0;
+  height: 2px; /* chỉ dày 2px thôi cho giống underline */
+  background: currentColor;
+  transition: width 0.3s ease;
+}
+
+.underline-hover:hover::after {
+  width: 100%;
+}
+
+/* info header */
+
+.info-header{
+    position: absolute;
+ top: 385px;
+ left: 40%;
+
+}
+
+.info-p .title {
+  font-size: 72px;     
+  font-weight: bold;    
+  line-height: 1.2;      
+  margin: 0;            
+}
+
+
+
+.info-header p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+.button-header{
+    padding: 25px 76px;
+    font-size: 10px;
+    margin-top: 35px;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.button-warp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-menu{
+    margin-left: 7px;
+}
+

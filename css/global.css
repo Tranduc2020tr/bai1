@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+.container-main{
+    width: 1326px ;
+}
+.produce-bottom{
+     width: 1326px ;
+}
+.container-footer{
+    width: 1326px ;
+}
+
+body{
+    font-family: "Jost", sans-serif;
+    background-color: #ffffff;
+    
+}
+img{
+    max-width: 100%;
+}
+ul li{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+     color: #ffffff;
+}
+
+header{
+    color: #ffffff;
+}

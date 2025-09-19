@@ -1,0 +1,127 @@
+footer{
+    margin-top: 100px;
+    background-color: #151515;
+    height: 525px;
+    
+}
+
+.container-footer{
+    margin-top: 200px;
+    
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+    color: #ffffff;
+    padding-top: 200px;
+    justify-items: start;
+}
+
+.div1, .div2, .div3 {
+    padding: 0;
+    margin: 0;   /* Bỏ margin */
+    text-align: left; /* Đảm bảo text căn trái */
+    
+}
+
+.div3 {
+    grid-column: span 2 / span 2;
+}
+
+.div1 h2{
+    margin-bottom: 40px;
+     font-size: 16px;
+}
+
+.div1 p{
+    margin-bottom: 30px;
+    opacity: 0.6;
+    font-size: 13px;
+}
+
+.div2 h2{
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.div2 p{
+    margin-bottom: 30px;
+     opacity: 0.6;
+      font-size: 13px;
+
+}
+
+
+.div3 h2{
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.div3 p{
+    margin-bottom: 30px;
+     opacity: 0.6;
+      font-size: 13px;
+}
+
+.subscribe-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  border-bottom: 1px solid #777; 
+  padding: 5px 0;
+  width: 650px;
+  margin-bottom: 30px;
+  margin-top: 70px;
+}
+
+.email-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff; 
+  font-size: 14px;
+  flex: 1;
+}
+
+.email-input::placeholder {
+  color: #777; 
+}
+
+.subscribe-btn {
+  background: none;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+hr{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    opacity: 0.6;
+}
+
+.menu-footer{
+    display: flex;
+    gap: 840px;
+}
+
+.menu-bottom-letf ul {
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+}
+
+.menu-banner-right img{
+    margin-right: 30px;
+}
+
+.banquyen{
+    display: flex;
+   gap: 840px;
+    margin-top: 65px;
+    color: #ffffff;
+}

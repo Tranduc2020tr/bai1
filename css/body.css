@@ -1,0 +1,270 @@
+.banner-contaner{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+margin-top: 87px;
+}
+
+.banner-contaner-top1{
+    display: flex;
+    gap: 20px;
+}
+
+/* gạch chân */
+.underline-hover {
+  position: relative;
+  text-decoration: none;
+font-size: 15px;
+}
+
+.underline-hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background: currentColor; /* tự lấy màu chữ */
+  transition: width 0.3s ease;
+}
+
+.underline-hover:hover::after {
+  width: 100%;
+}
+
+/* banner-contaner-center */
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    margin-top: 86px;
+}
+    
+.anh-banner-letf1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+}
+
+.anh-banner-letf2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+
+.anh-banner-letf3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+.anh-banner-letf4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.parent img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.anh-letf1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.anh-banner-letf1 , .anh-banner-letf2, .anh-banner-letf3 ,.anh-banner-letf4  {
+    position: relative;
+   
+}
+
+.info-banner-contaner-center{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    
+}
+
+.info1{
+    font-size: 13px;
+    font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      color: #ffffff;
+}
+
+.anh-banner-letf1 , .anh-banner-letf2, .anh-banner-letf3 ,.anh-banner-letf4 .info2 {
+   font-size: 30px;
+   color: #ffffff;
+   
+}
+
+.info3{
+    margin-top: 25px;
+}
+
+.info3{
+    margin-top: 20px;
+}
+
+.info-produce{
+    margin-top: 100px;
+    margin-bottom: 55px;
+    font-size: 40px;
+}
+
+/* produce card */
+
+.produce-sp{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 30px;
+    row-gap: 58px;
+}
+
+
+.icon-produce-sp{
+    display: inline-flex;
+    gap: 8px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.info-produce-sp{
+    margin-bottom: 12px;
+    
+}
+
+.info-price-sp{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.info-produce-sp1{
+    margin-top: 25px;
+}
+
+.info-price-sp1{
+    display: flex;
+     gap: 155px;
+     font-weight: bold;
+     margin-top: 12px;
+     
+}
+.icon-price-sp2{
+    margin-right: 25px ;
+}
+
+.info-price-sp3{
+     margin-top: 12px;
+     font-weight: bold;
+}
+
+.old-price {
+  text-decoration: line-through;  /* gạch ngang */
+  color: #888;                    /* thường để màu xám nhạt */
+  margin-left: 8px;               /* cách giá mới 1 chút */
+}
+
+.button-view{
+    margin-top: 79px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.button-view button{
+    padding: 18px 32px;
+    border: 2px solid black;
+}
+
+
+.banner-bottom{
+    position: relative;
+}
+
+
+.info-banner-bottom{
+    position: absolute;
+    top: 230px;
+    left: 298px;
+    color: #ffffff;
+}
+
+.info-top{
+    font-size: 19px;
+    font-weight: 200;
+    font-weight: bold;
+    margin-bottom: 35px;
+    color: #ffffff;
+}
+
+.info-top2{
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.info-time {
+  display: inline-flex;
+  gap: 29px; /* khoảng cách giữa các cột */
+}
+
+.info-time > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+/* info bottom */
+
+.info-bottom{
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.produce-bottom1{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 30px;
+}
+.diadiem{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.info-bottom p{
+  line-height: 18px;
+}
+
+.tieude{
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.mota{
+    margin-bottom: 40px;
+    color: #454545;
+    font-size: 15px;
+}
+
+.time-post{
+    font-size: 10px;
+     opacity: 0.6;
+}
