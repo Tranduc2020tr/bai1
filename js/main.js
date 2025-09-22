@@ -28,6 +28,7 @@ function showSlide() {
 
 
 function nextSlide() {
+   current++;
   if (current >= total - 1) return; 
   slides.style.transition = "transform 0.5s ease";
   showSlide();
@@ -46,7 +47,7 @@ function nextSlide() {
   );
 }
 
-setInterval(nextSlide, 3000);
+setInterval(nextSlide, 1000);
 
 
 window.addEventListener("resize", () => {
