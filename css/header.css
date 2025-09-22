@@ -1,57 +1,66 @@
-.anh-header{
-    position: relative;
+.anh-header {
+  position: relative;
 }
 
-.header-banner{
-    position: absolute;
-    display: flex;
-    top: 35px;
-    margin-left: 283px;
-    
+.anh-header {
+  width: 1920px; 
+  height: 1077px; 
+  overflow: hidden; 
 }
 
-.menu{
-    display: flex;
-   
-    
+.slides {
+  display: flex;
+  transition: transform 0.5s ease; 
 }
 
-.menu-banner-letf ul{
-    display: flex;
+.slides img {
+  width: 1920px; 
+  height: 1077px; 
+  flex-shrink: 0; 
 }
 
-.menu-banner-letf ul li{
-   margin-right: 45px;
+.header-banner {
+  position: absolute;
+  display: flex;
+  top: 35px;
+  margin-left: 283px;
 }
 
-.menu-banner-right ul li{
-   margin-left: 45px;
+.menu {
+  display: flex;
+}
+
+.menu-banner-letf ul {
+  display: flex;
+}
+
+.menu-banner-letf ul li {
+  margin-right: 45px;
+}
+
+.menu-banner-right ul li {
+  margin-left: 45px;
 }
 .menu-banner-right ul {
-    display: flex;
+  display: flex;
 }
 
-.menu-banner-letf ul li a{
-  
+.menu-banner-letf ul li a {
   font-size: 15px;
- 
 }
 
-.menu-banner-right ul li a{
-   
-   font-size: 15px;
+.menu-banner-right ul li a {
+  font-size: 15px;
 }
 
-.icon-letf{
-    margin-right: 320px;
+.icon-letf {
+  margin-right: 320px;
 }
 
-
-
-.icon-right{
-    margin-left: 325px;
-    display: inline-flex;
-    position: relative;
+.icon-right {
+  margin-left: 325px;
+  display: inline-flex;
+  position: relative;
 }
 
 .cart_qty {
@@ -74,7 +83,6 @@
 .underline-hover {
   position: relative;
   text-decoration: none;
- 
 }
 
 .underline-hover::after {
@@ -94,44 +102,39 @@
 
 /* info header */
 
-.info-header{
-    position: absolute;
- top: 385px;
- left: 40%;
-
+.info-header {
+  position: absolute;
+  top: 385px;
+  left: 40%;
 }
 
 .info-p .title {
-  font-size: 72px;     
-  font-weight: bold;    
-  line-height: 1.2;      
-  margin: 0;            
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0;
 }
 
-
-
-.info-header p{
-    text-align: center;
-    font-size: 18px;
-    margin-bottom: 10px;
+.info-header p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
-
-.button-header{
-    padding: 25px 76px;
-    font-size: 10px;
-    margin-top: 35px;
-    font-weight: bold;
-    background-color: #ffffff;
+.button-header {
+  padding: 25px 76px;
+  font-size: 10px;
+  margin-top: 35px;
+  font-weight: bold;
+  background-color: #ffffff;
 }
 
-.button-warp{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.button-warp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.logo-menu{
-    margin-left: 7px;
+.logo-menu {
+  margin-left: 7px;
 }
-
